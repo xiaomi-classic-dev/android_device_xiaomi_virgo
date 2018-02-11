@@ -34,6 +34,8 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_PREBUILT_KERNEL := device/xiaomi/virgo/kernel
 
 #twrp
+TARGET_USERIMAGES_USE_EXT4              := true
+TARGET_USERIMAGES_USE_F2FS              := true
 RECOVERY_VARIANT                        := twrp
 DEVICE_RESOLUTION                       := 1080x1920
 BOARD_HAS_NO_REAL_SDCARD                := true

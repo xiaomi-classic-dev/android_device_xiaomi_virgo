@@ -58,3 +58,4 @@ BOARD_SUPPRESS_SECURE_ERASE             := true
 BOARD_SUPPRESS_EMMC_WIPE                := true
 RECOVERY_SDCARD_ON_DATA                 := true
 TW_EXTRA_LANGUAGES                      := true
+

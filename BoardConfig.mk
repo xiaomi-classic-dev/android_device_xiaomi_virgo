@@ -34,6 +34,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_PREBUILT_KERNEL := device/xiaomi/virgo/kernel
 
 #twrp
+LZMA_RAMDISK_TARGETS                    := boot,recovery
 TARGET_USERIMAGES_USE_EXT4              := true
 TARGET_USERIMAGES_USE_F2FS              := true
 RECOVERY_VARIANT                        := twrp
@@ -56,3 +57,4 @@ TARGET_RECOVERY_QCOM_RTC_FIX            := true
 BOARD_SUPPRESS_SECURE_ERASE             := true
 BOARD_SUPPRESS_EMMC_WIPE                := true
 RECOVERY_SDCARD_ON_DATA                 := true
+TW_EXTRA_LANGUAGES                      := true

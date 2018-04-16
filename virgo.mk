@@ -1,6 +1,3 @@
-# Common QCOM configuration tools
-$(call inherit-product, device/qcom/common/Android.mk)
-
 LOCAL_PATH := device/xiaomi/virgo
 
 DEVICE_PACKAGE_OVERLAYS += \

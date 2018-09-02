@@ -22,7 +22,7 @@ DEVICE_PATH := device/xiaomi/virgo
 CONFIG_EAP_PROXY_DUAL_SIM := true
 
 # Lineage Hardware
-BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/lineagehw
+JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java
 
 # ReleaseTools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools

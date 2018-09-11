@@ -21,8 +21,8 @@ DEVICE_PATH := device/xiaomi/virgo
 # Dual sim solution in virgo
 CONFIG_EAP_PROXY_DUAL_SIM := true
 
-# MK Hardware
-BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/mkhw
+# Lineage Hardware
+BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/lineagehw
 
 # ReleaseTools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools

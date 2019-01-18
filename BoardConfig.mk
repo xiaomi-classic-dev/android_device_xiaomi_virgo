@@ -18,6 +18,9 @@
 
 DEVICE_PATH := device/xiaomi/virgo
 
+# Display
+TARGET_SCREEN_DENSITY := 440
+
 # Dual sim solution in virgo
 CONFIG_EAP_PROXY_DUAL_SIM := true
 

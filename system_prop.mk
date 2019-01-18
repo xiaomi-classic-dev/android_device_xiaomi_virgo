@@ -18,6 +18,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=20 \
     persist.radio.multisim.config=dsds
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=440

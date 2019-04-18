@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_virgo.mk
+    $(LOCAL_DIR)/omni_virgo.mk

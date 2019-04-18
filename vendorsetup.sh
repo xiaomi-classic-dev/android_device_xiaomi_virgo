@@ -1,2 +1,1 @@
-add_lunch_combo lineage_virgo-eng
-add_lunch_combo lineage_virgo-userdebug
+add_lunch_combo omni_virgo-eng

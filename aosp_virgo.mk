@@ -16,7 +16,7 @@
 # Inherit from virgo device
 $(call inherit-product, device/xiaomi/virgo/virgo.mk)
 
-PRODUCT_NAME := mk_virgo
+PRODUCT_NAME := aosp_virgo
 PRODUCT_DEVICE := virgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi

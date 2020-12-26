@@ -38,7 +38,7 @@ PRODUCT_PACKAGES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.mokee.touch@1.0-service.virgo
+    vendor.lineage.touch@1.0-service.virgo
 
 # WiFi
 PRODUCT_COPY_FILES += \

@@ -21,3 +21,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=440
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.st.latch_unsignaled=1
+    persist.sys.ui.hw=1
+    ro.logdumpd.enabled=0
+    trustkernel.log.state=disable
+    persist.vendor.camera.stats.test=0
+    persist.camera.stats.test=0

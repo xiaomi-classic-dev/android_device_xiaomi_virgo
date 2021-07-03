@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mokee_virgo.mk
+    $(LOCAL_DIR)/lineage_virgo.mk
+    
+COMMON_LUNCH_CHOICES := \
+    lineage_virgo-user \
+    lineage_virgo-userdebug \
+    lineage_virgo-eng

@@ -1,5 +1,4 @@
 Copyright 2017 - The LineageOS Project
-Copyright 2017 - The CherishOS Project
 
 Xiaomi Mi Note LTE
 ==============
